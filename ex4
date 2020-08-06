@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
         m++;
     }
     printf("Heads: %d, Tails: %d\n",n,m);
-    if(n>m) printf("You won!\n");
-    else printf("You lost!\n");
+    if(n>m) printf("%s won!\n", name);
+    else printf("%s lost!\n", name);
     return (EXIT_SUCCESS);
 }
